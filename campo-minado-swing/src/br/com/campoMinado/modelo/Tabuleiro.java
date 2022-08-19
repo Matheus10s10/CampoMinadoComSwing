@@ -19,6 +19,8 @@ public class Tabuleiro implements CampoObservador{
 		this.colunas = colunas;
 		this.minas = minas;
 		
+		
+		
 		gerarCampos();
 		associarVizinhos();
 		sortearMinas();
